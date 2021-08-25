@@ -1,0 +1,53 @@
+.rights {
+  background-color: $bg-color;
+  @include flex-center;
+  height: 150px;
+  width: 100%;
+}
+.rights > nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+}
+.rights > nav > ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 32%;
+}
+.rights > nav > ul > li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-right: 2%;
+  padding-bottom: 2%;
+}
+.rights > nav > ul > li::marker {
+  font-size: 5px;
+}
+.rights > nav > ul > li:first-child {
+  list-style: none;
+}
+.rights > nav > ul > li:last-child {
+  list-style: none;
+  color: $pg-color;
+  font-size: 11px;
+  padding-bottom: 0;
+}
+.rights > nav > ul > li > a {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: $bt-color;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 12%;
+}
+i {
+  @include flex-center;
+  color: $bt-color;
+  font-size: 1.5em;
+}

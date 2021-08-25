@@ -1,0 +1,36 @@
+.bottomsignup {
+  @include flex-center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url(bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  height: 350px;
+  width: 100%;
+}
+.bottomsignup > h2 {
+  color: white;
+}
+.bottomup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 35%;
+  margin-top: 2%;
+}
+input {
+  @include flex-center;
+  width: 73%;
+  padding: 2.8%;
+  border: 0px;
+  border-radius: 5px;
+}
+.bottombutton {
+  @include flex-center;
+  padding: 2.5% 6%;
+  background-color: $bt-color;
+  border-radius: 5px;
+  color: white;
+}

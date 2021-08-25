@@ -1,0 +1,20 @@
+@media (max-width: 800px) {
+  .talking {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+}
+@media (max-width: 700px) {
+  .talking{
+    height: 900px;
+    .person {
+    margin: 5%;
+    }
+  }
+}
+@media (max-width: 400px) {
+  h2 {
+    padding: 3%;
+  }
+}

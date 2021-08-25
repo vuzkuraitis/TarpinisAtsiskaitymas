@@ -1,0 +1,54 @@
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 7%;
+}
+.showcase {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: white;
+  width: 100%;
+}
+.box {
+  @include flex-center;
+  height: 350px;
+  width: 50%;
+}
+.fullyimg {
+  background-image: url(bg-showcase-1.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  height: 350px;
+  width: 50%;
+}
+.one {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.updatedimg {
+  background-image: url(bg-showcase-2.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  height: 350px;
+  width: 50%;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+}
+.customimg {
+  background-image: url(bg-showcase-3.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  height: 350px;
+  width: 50%;
+}
+.three {
+  display: flex;
+  flex-direction: row-reverse;
+}

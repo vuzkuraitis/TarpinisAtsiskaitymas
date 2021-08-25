@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 0.5%;
+  width: 100%;
+  background: $bg-color;
+  z-index: 1;
+}
+li {
+  list-style-type: none;
+}
+header > nav {
+  padding: 0.7% 1%;
+  background-color: $bt-color;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10%;
+}
+header > a {
+  margin-left: 10%;
+}

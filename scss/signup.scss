@@ -1,0 +1,39 @@
+.signup {
+@include flex-center;
+flex-direction: column;
+flex-wrap: wrap;
+margin-top: 0;
+background-image: url(bg-masthead.jpg);
+background-size: cover;
+background-position: center;
+object-fit: contain;
+height: 500px;
+width: 100%;
+}
+.up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 35%;
+  margin-top: 2%;
+}
+h1 {
+  @include flex-center;
+  text-align: center;
+  color: white;
+}
+input {
+  @include flex-center;
+  width: 73%;
+  padding: 2.8%;
+  border: 0px;
+  border-radius: 5px;
+}
+.button {
+  display: block;
+  padding: 2.5% 6%;
+  background-color: $bt-color;
+  border-radius: 5px;
+  color: white;
+}

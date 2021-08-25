@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+      .bottomup {
+        width: 35%;
+        .bottombutton {
+        margin: 2%;
+        padding: 2.5% 29%
+      }
+   }
+  }
+@media (max-width: 1082px) {
+      .bottomup {
+        width: 50%;
+      .bottombutton {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          width: 100%;
+        }
+      }
+      }
+      }
+@media (max-width: 1000px) {
+      .bottomup {
+        width: 50%;
+      .bottombutton {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 2.8%;
+          width: 100%;
+        }
+      }
+      }
+      }
+@media (max-width: 800px) {
+  .bottomup {
+    width: 70%;
+  .bottombutton {
+    margin: 2%;
+    padding: 2.5% 29%;
+    input {
+      padding: 3%;
+      width: 100%;
+    }
+  }
+}
+}
+@media (max-width: 600px) {
+      .bottomup {
+      width: 80%;
+      .bottombutton {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 3%;
+          width: 100%;
+        }
+      }
+      }
+      }
+@media (max-width: 450px) {
+      .bottomup {
+        width: 80%;
+      .bottombutton {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 4%;
+          width: 100%;
+        }
+      }
+      }
+      }
+@media (max-width: 320px) {
+      .bottomup {
+        width: 100%;
+      .bottombutton {
+        margin: 2%;
+        padding: 2.5% 27.5%;
+        input {
+          padding: 4%;
+          width: 100%;
+        }
+      }
+      }
+}

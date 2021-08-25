@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 35%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 29%
+      }
+   }
+ }
+}
+@media (max-width: 1082px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 50%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          width: 100%;
+        }
+      }
+      }
+}
+}
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 50%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 2.8%;
+          width: 100%;
+        }
+      }
+      }
+}
+}
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 70%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 3%;
+          width: 100%;
+        }
+      }
+      }
+}
+}
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 80%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 3%;
+          width: 100%;
+        }
+      }
+      }
+}
+}
+@media (max-width: 450px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 80%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 29%;
+        input {
+          padding: 4%;
+          width: 100%;
+        }
+      }
+      }
+}
+}
+@media (max-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .up {
+      width: 100%;
+      .button {
+        margin: 2%;
+        padding: 2.5% 27.5%;
+        input {
+          padding: 4%;
+          width: 100%;
+        }
+      }
+      }
+}
+}

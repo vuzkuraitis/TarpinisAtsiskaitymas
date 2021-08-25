@@ -1,0 +1,66 @@
+h2 {
+  text-align: center;
+  }
+.talking {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: $bg-color;
+  height: 500px;
+  width: 100%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.person {
+ @include flex-center;
+ flex-direction: column;
+ text-align: center;
+}
+.talking > .people > .person > p {
+  font-size: 12px;
+}
+.talking > .people > .person > h2 {
+  font-size: 1.0em;
+}
+.Mar {
+  display: flex;
+  height: 170px;
+  width: 80%;
+  background-image: url(testimonials-1.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Fre {
+  display: flex;
+  height: 170px;
+  width: 80%;
+  background-image: url(testimonials-2.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Ser {
+  display: flex;
+  height: 170px;
+  width: 80%;
+  background-image: url(testimonials-3.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
